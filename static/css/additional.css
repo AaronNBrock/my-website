@@ -42,3 +42,7 @@ a:hover {
 blockquote {
     border-left:4px solid #6000c0;
 }
+.alertbar input[type="submit"] {
+    background-color:#400080;
+    border:1px solid #400080;
+}
