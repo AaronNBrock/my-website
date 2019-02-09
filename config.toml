@@ -1,0 +1,57 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Aaron N. Brock"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Aaron N. Brock - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+pygmentsCodeFences=true
+pygmentsStyle="tango"
+
+[params]
+  logo = "/images/Icon-32x32.png"
+  description ="my place for thoughts..."
+  jumbotron = "images/jumbotron.jpg"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+
+[params.author]
+  name = "Aaron N. Brock"
+  thumbnail = "/images/icon.png"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/icon.png"
+  title = "Aaron N. Brock"
+  subtitle = "But why?"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!
+'''
+  alertbar = false
+
+[params.social]
+  github = "AaronNBrock"
+  linkedin = "AaronNBrock"
+  # xing = "<username>"
+  # medium = "AaronNBrock"
+  twitter = "AaronNBrock"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+# [[menu.main]]
+#     name = "Imprint"
+#     identifier = "imprint"
+#     weight = 200
+#     url = "/static/imprint"
