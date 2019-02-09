@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "aaronnbrock.com/"
 languageCode = "en-us"
 title = "Aaron N. Brock"
 theme = "mediumish-gohugo-theme"
