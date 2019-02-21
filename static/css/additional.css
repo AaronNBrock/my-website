@@ -46,3 +46,16 @@ blockquote {
     background-color:#400080;
     border:1px solid #400080;
 }
+
+/*
+Fonts
+Roboto -> Open Sans
+*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+/* as per: https://stackoverflow.com/a/24076928/7607701 */
+body {
+    font-family: 'Open Sans',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
