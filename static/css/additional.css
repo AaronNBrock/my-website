@@ -59,3 +59,24 @@ Roboto -> Open Sans
 body {
     font-family: 'Open Sans',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
+
+/*
+Tables
+*/
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1.75em;
+}
+
+th, td {
+    box-sizing: border-box;
+    margin: 0 0 1.75em 0;
+    border: #E3EDF3 1px solid;
+    width: 100%;
+    padding: 10px;
+    white-space: pre;
+    overflow: auto;
+    background: #F7FAFB;
+    border-radius: 3px;
+}
